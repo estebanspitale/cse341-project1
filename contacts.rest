@@ -1,0 +1,7 @@
+### Get all contacts
+GET https://cse341-project1-5bta.onrender.com/contacts
+
+###
+
+### Get single contact
+GET https://cse341-project1-5bta.onrender.com/contacts/69622c3397838f4fa37d8776
