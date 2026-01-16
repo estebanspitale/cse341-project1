@@ -1,7 +1,40 @@
-### Get all contacts
+### GET all contacts
 GET https://cse341-project1-5bta.onrender.com/contacts
 
 ###
 
-### Get single contact
+### GET single contact
 GET https://cse341-project1-5bta.onrender.com/contacts/69622c3397838f4fa37d8776
+
+###
+
+### CREATE contact (POST)
+POST https://cse341-project1-5bta.onrender.com/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Carlos",
+  "lastName": "Gomez",
+  "email": "carlos.gomez@email.com",
+  "favoriteColor": "Blue",
+  "birthday": "1990-05-15"
+}
+
+###
+
+### UPDATE contact (PUT)
+PUT https://cse341-project1-5bta.onrender.com/contacts/REEMPLAZAR_CON_ID
+Content-Type: application/json
+
+{
+  "firstName": "Carlos",
+  "lastName": "Gomez",
+  "email": "carlos.updated@email.com",
+  "favoriteColor": "Green",
+  "birthday": "1990-05-15"
+}
+
+###
+
+### DELETE contact
+DELETE https://cse341-project1-5bta.onrender.com/contacts/REEMPLAZAR_CON_ID
