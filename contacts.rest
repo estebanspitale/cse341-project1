@@ -23,7 +23,7 @@ Content-Type: application/json
 ###
 
 ### UPDATE contact (PUT)
-PUT https://cse341-project1-5bta.onrender.com/contacts/REEMPLAZAR_CON_ID
+PUT https://cse341-project1-5bta.onrender.com/contacts/696a97d352445e021b0ebd89
 Content-Type: application/json
 
 {
@@ -37,4 +37,4 @@ Content-Type: application/json
 ###
 
 ### DELETE contact
-DELETE https://cse341-project1-5bta.onrender.com/contacts/REEMPLAZAR_CON_ID
+DELETE https://cse341-project1-5bta.onrender.com/contacts/696a97d352445e021b0ebd89
