@@ -7,11 +7,16 @@ require('dotenv').config();
 const mongodb = require('./db/connect');
 const contactsRoutes = require('./routes/contacts');
 
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./swagger');
+
 app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('Hello World');
 });
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use('/contacts', contactsRoutes);
 
